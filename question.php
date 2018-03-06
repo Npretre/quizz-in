@@ -28,13 +28,13 @@ include_once 'controllers/usersController.php';
             <div class="">
                 <div id="result">
                     <?php
-                    if (isCorrect == 1) {
+                    if ($isCorrect == 1) {
                         echo 'Bravo !';
                     } else {
                         echo 'T nul';
                     }
                     ?>
-                    <p><?= $question->description ?></p>
+                    <p><?= $question->question ?></p>
                     <button>Question suivanteuh</button>
                 </div>
                 <form>

@@ -1,3 +1,13 @@
+<?php
+include_once 'models/database.php';
+include_once 'models/answers.php';
+include_once 'models/question.php';
+include_once 'models/result.php';
+include_once 'models/users.php';
+include_once 'controllers/answersController.php';
+include_once 'controllers/questionController.php';
+include_once 'controllers/resultController.php';
+?>
 <!doctype html>
 <html>
     <head>
