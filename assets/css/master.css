@@ -1,0 +1,56 @@
+.back{
+padding-left: 40%;
+height: 500px;
+}
+label{
+    color: orangered;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type=radio] + label {
+  background: #3faa83;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  transition: 0.5s;
+  width: 600px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+input[type=radio]:checked + label  {
+  background: #3faa83;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.answers{
+    display: inline-block;
+}
+
+#result{
+    display: none;
+}
+
+.b{
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
